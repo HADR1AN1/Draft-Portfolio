@@ -1,0 +1,54 @@
+#divshadplain {
+    height: 100px;
+    padding: 15px;
+    background-color: lightsalmon;
+    box-shadow: 10px 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+#divshadcolored {
+    height: 100px;
+    padding: 15px;
+    background-color: lightsalmon;
+    box-shadow: 10px 10px yellow;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+#divshadblurcolored {
+    height: 100px;
+    padding: 15px;
+    background-color: lightsalmon;
+    box-shadow: 10px 10px 5px red;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+#divshadblurcoloredradius {
+    height: 100px;
+    padding: 15px;
+    background-color: lightsalmon;
+    box-shadow: 10px 10px 5px 10px purple;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+#divshadinset {
+    height: 100px;
+    padding: 15px;
+    background-color: lightsalmon;
+    box-shadow: 10px 10px 5px blue inset;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#divshadmulticolor {
+    height: 100px;
+    padding: 15px;
+    background-color: lightsalmon;
+    box-shadow: 5px 5px 5px purple, 10px 10px 5px red, 15px 15px 5px lightblue, 20px 20px 5px violet;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}

@@ -1,0 +1,66 @@
+.facebook {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(33, 33, 240);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    text-decoration: none;
+}
+
+.facebook:hover {background-color: rgb(17, 17, 124)}
+
+.facebook:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.twitter {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(33, 240, 240);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.twitter:hover {background-color: #169297}
+
+.twitter:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.youtube {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(226, 10, 10);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.youtube:hover {background-color: rgb(146, 7, 7)}
+
+.youtube:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

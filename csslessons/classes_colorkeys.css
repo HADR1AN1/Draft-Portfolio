@@ -1,0 +1,26 @@
+div.ex1 { 
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 5px;
+}
+  
+div.ex2 { 
+    background-color: transparent;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+div.ex3 {
+    color: blue;
+    border: 5px solid currentcolor;
+    padding: 5px;  
+}
+
+div.ex4 {
+    border: 2px solid red;
+}
+  
+span {
+    border: inherit;
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>My Personal Website</title>
+	</head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+	<link rel="stylesheet" type="text/css" href="css/tags.css">
+	<link rel="stylesheet" type="text/css" href="css/classes.css">
+	<link rel="stylesheet" type="text/css" href="css/classes_buttons.css">
+	<link rel="stylesheet" type="text/css" href="css/others.css">
+	<link rel="stylesheet" type="text/css" href="css/classes_gallery.css">
+	<link rel="stylesheet" type="text/css" href="css/classes_tooltip.css">
+	<link rel="stylesheet" type="text/css" href="css/classes_link.css">
+
+    <link rel="stylesheet" type="text/css" href="csslessons/classes_colorkeys.css">
+
+    <link rel="stylesheet" type="text/css" href="csslessons/classes_gradients_linear.css">
+    <link rel="stylesheet" type="text/css" href="csslessons/classes_gradients_radial.css">
+    <link rel="stylesheet" type="text/css" href="csslessons/classes_gradients_conic.css">
+	
+    <link rel="stylesheet" type="text/css" href="csslessons/classes_shadows_text.css">
+    <link rel="stylesheet" type="text/css" href="csslessons/classes_shadows_box.css">
+
+    <link rel="stylesheet" type="text/css" href="csslessons/classes_2dtransform.css">
+
+    
+    <body>
+		<div class="header">
+			<h1 style="font-size: 50px;">CSS Lessons</h1>
+		</div>
+
+		<div class="topnav">
+			<a href="Home.html">Introduction</a>
+			<a href="Interests.html">My Interests</a>
+			<a href="Skills.html">My Skills</a>
+			<a href="Short Lessons (CSSHTML).html">CSS Lessons</a>
+            <a href="CSS Lessons Code.html">CSS Code</a>
+
+            <a href="Favorites.html" style="float:right">My Favorites</a>
+			<a href="Main Page.html" style="float:right">Return to Main Page</a>
+		</div>
+
+        <div class="row">
+			<div class="leftcolumn1">
+                <!--Color Keywords-->
+				<div class="card1">
+					<h2><a href="https://www.w3schools.com/css/css_colors_keywords.asp">CSS Color Keywords</a>:</h2> 
+                        <p>This short lesson will teach you CSS Color Keywords such as <i>tranparent</i>, <i>currentcolor</i>, and <i>inherent</i>.</p>
+
+                    <h3>Transparent Keyword:</h3>
+                        <p>The <i>transparent</i> keyword is used to make a color transparent.</p>
+                        <div class="card2" style="background-color: rgb(145, 145, 240);">
+                            <div class="ex1"><p>While the base background is light blue, this div's background color is light green.</p></div>
+
+                            <div class="ex2"><p>This div has the <i>transparent</i> value on its style value, thus having the same background as the previous div.</p></div>
+                        </div>
+                    
+                    <h3>Currentcolor Keyword:</h3>
+                        <p>The <i>currentcolor</i> keyword is like a variable that holds the current value of the color property of an element.</p>
+                        <div class="card2">
+                            <div class="ex3"><p>This div element has a blue text color. The border is also blue due to the currentcolor keyword.</p></div>
+                        </div>
+
+                    <h3>Inherit Keyword:</h3>
+                        <p>The <i>inherent</i> keyword, in the name itself, specifies that a property will inherit its value from its parent element.</p>
+                        <div class="card2">
+                            <div class="ex4">In this, the <span>span element's</span> border will be inherited from the parent element</div>
+                        </div>
+				</div>
+                <!--Color Keywords-->
+
+                <!--Gradients-->
+                <div class="card1">
+					<h2><a href="https://www.w3schools.com/css/css3_gradients.asp">CSS Gradients</a>:</h2>
+                        <p>This short lesson will teach you CSS Gradients. Gradients allow you to display smooth transitions between two or more colors.</p>
+
+                    <p><b>There are three types of Gradients:</b></p>
+                        <ul>
+                            <li>Linear Gradients - it goes up, down, left, right, or diagonal.</li>
+                            <li>Radial Gradients - circular.</li>
+                            <li>Conic Gradients - rotated around a point.</li>
+                        </ul>
+                    
+                    <h3>Linear Gradients:</h3>
+                        <p><b>Basic Syntax:</b> <i>background-image: linear-gradient(direction, color-stop1, color-stop2, ...);</i></p>
+                        <div class="card2">
+                            <h4>Top - Bottom:</h4>
+                                <div id="gradtopbot"><center>Transition from red to blue (top to bottom)</center></div>
+
+                            <h4>Left - Right:</h4>
+                                <div id="gradright"><center>Transition from red to blue (left to right)</center></div>
+
+                            <h4>Diagonal:</h4>
+                                <div id="graddiag"><center>Transition from red to blue (top left to bottom right)</center></div>
+                            
+                            <h4>Angling:</h4>
+                                <div id="gradangle"><center>Transition from red to blue (180 degrees = top to bottom)</center></div>
+
+                            <h4>Multiple Color Stops:</h4>
+                                <div id="gradmult"><center>Transition from multiple colors (left to right)</center></div>
+
+                            <h4>Transparency:</h4>
+                                <div id="gradtransparent"><center>Transition from full transparency to full blue (left to right)</center></div>
+
+                            <h4>Repeating:</h4>
+                                <div id="gradrepeat"><center>Repeating red, green, and blue</center></div>
+                        </div>
+
+                    <h3>Radial Gradients:</h3>
+                        <p><b>Basic Syntax:</b> <i>background-image: radial-gradient(shape size at position, start-color, ..., last-color);</i></p>
+                        <div class="card2">
+                            <h4>Evenly Spaced:</h4>
+                                <div id="gradradeven"></div>
+
+                            <h4>Differently Spaced:</h4>
+                                <div id="gradraddiff"></div>
+
+                            <h4>Setting Shapes (Circle):</h4>
+                                <div id="gradradshape"></div>
+
+                            <h4>Differently Sized (Closest and Farthest Sides):</h4>
+                                <div id="gradradcloseside"><center>Closest</center></div>
+
+                                <div id="gradradfarside"><center>Farthest</center></div>
+
+                            <h4>Repeating:</h4>
+                                <div id="gradradrepeat"></div>
+                        </div>
+
+                    <h3>Conic Gradients:</h3>
+                        <p><b>Basic Syntax:</b> <i>background-image: conic-gradient([from angle] [at position,] color [degree], color [degree], ...);</i></p>
+                        <div class="card2">
+                            <h4>Three Colors:</h4>
+                                <div id="gradcon"></div>
+
+                            <h4>Five Colors:</h4>
+                                <div id="gradconfive"></div>
+
+                            <h4>Three Colors and Degrees:</h4>
+                                <div id="gradcondeg"></div>
+
+                            <h4>Pie Chart:</h4>
+                                <div id="gradcondpie"></div>
+
+                            <h4>Specified from Angle:</h4>
+                                <div id="gradcondspecangle"></div>
+
+                            <h4>Specified Center Position:</h4>
+                                <div id="gradcondspeccenter"></div>
+
+                            <h4>Repeating:</h4>
+                                <div id="gradconrepeating"></div>
+                        </div>
+				</div>
+                <!--Gradients-->
+
+                <!--Shadows-->
+                <div class="card1">
+					<h2><a href="https://www.w3schools.com/css/css3_shadows.asp">CSS Shadows</a>:</h2>
+                        <p>With CSS, you can add shadows to texts and elements. There are two types of shadows: <i>text-shadow</i> for texts and <i>box-shadow</i> for elements.</p>
+                        
+                        <h4>Text Shadows:</h4>
+                            <div class="card2">
+                                <h4 id="shadplain">Plain Shadow</h4>
+
+                                <h4 id="shadcolor">Text with Red Shadow</h4>
+
+                                <h4 id="shadcolorblur">Text with Red Blurry Shadow</h4>
+
+                                <h4 id="shadwhitetext">White Text with Black Shadow</h4>
+
+                                <h4 id="shadneonpurp">Text with Purple Neon</h4>
+
+                                <h4 id="shadneonmulti">Text with Purple and Blue Neon</h4>
+
+                                <h4 id="shadneonshadowmulti">Text with Purple and Blue Neon and Black Shadow</h4>
+
+                                <h4 id="shadborder">Border Text</h4>
+                            </div>
+                            
+                        <h4>Box Shadows:</h4>
+                            <div class="card2">
+                                <div id="divshadplain"><center>Box with plain shadow</center></div>
+
+                                <div id="divshadcolored"><center>Box with plain yellow shadow</center></div>
+
+                                <div id="divshadblurcolored"><center>Box with red shadow</center></div>
+
+                                <div id="divshadblurcoloredradius"><center>Box with purple shadow and increased radius</center></div>
+
+                                <div id="divshadinset"><center>Box with blue inset shadow</center></div>
+
+                                <div id="divshadmulticolor"><center>Box with multiple shadow</center></div>
+                            </div>
+				</div>
+                <!--Shadows-->
+
+                <!--Text Effects-->
+                <div class="card1">
+					<h2><a href="https://www.w3schools.com/css/css3_text_effects.asp">CSS Text Effects</a>:</h2>
+                        <p>Text Effects allow you to make interesting and unique texts in your website.</p>
+
+                    <h3>Text Overflow:</h3>
+                        <p>The CSS <i>text-overflow</i> property specifies how overflowed content that is not displayed should be signaled to the user.</p>
+                        <div class="card2">
+                            <h4>Clip:</h4>
+                            <p id="clip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ligula nibh. Aenean elementum mi dui, sit amet sollicitudin magna suscipit at. Quisque et ante arcu. Ut facilisis neque sit amet mi scelerisque auctor. Fusce ut ultricies purus. Fusce molestie cursus libero, id imperdiet felis molestie in. Maecenas in leo suscipit, ornare sem sed, egestas arcu. Cras posuere nibh odio, lobortis malesuada libero sollicitudin posuere.</p>
+
+                            <h4>Ellipsis:</h4>
+                            <p id="ellipsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ligula nibh. Aenean elementum mi dui, sit amet sollicitudin magna suscipit at. Quisque et ante arcu. Ut facilisis neque sit amet mi scelerisque auctor. Fusce ut ultricies purus. Fusce molestie cursus libero, id imperdiet felis molestie in. Maecenas in leo suscipit, ornare sem sed, egestas arcu. Cras posuere nibh odio, lobortis malesuada libero sollicitudin posuere.</p>
+                        </div>
+
+                    <h3>Word Wrap:</h3>
+                        <p>The CSS <i>word-wrap</i> property allows long words to be able to be broken and wrap onto the next line. </p>
+                        <div class="card2"><p id="wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ligula nibh. Aenean elementum mi dui, sit amet sollicitudin magna suscipit at. Quisque et ante arcu. Ut facilisis neque sit amet mi scelerisque auctor. Fusce ut ultricies purus. Fusce molestie cursus libero, id imperdiet felis molestie in. Maecenas in leo suscipit, ornare sem sed, egestas arcu. Cras posuere nibh odio, lobortis malesuada libero sollicitudin posuere.</p></div>
+
+                    <h3>Word Break:</h3>
+                        <p>The CSS <i>word-break</i> property specifies line breaking rules.</p>
+                        <div class="card2">
+                            <h4>Keep-all breaks at hyphen:</h4>
+                            <p id="keepbreak">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam-non-ligula-nibh. Aenean elementum mi dui, sit amet sollicitudin magna suscipit at. Quisque et ante arcu. Ut facilisis neque sit amet mi scelerisque auctor. Fusce ut ultricies purus. Fusce molestie cursus libero, id imperdiet felis molestie in. Maecenas in leo suscipit, ornare sem sed, egestas arcu. Cras posuere nibh-odio-, lobortis malesuada libero sollicitudin posuere.</p>
+
+                            <h4>Break-all breaks at characters:</h4>
+                            <p id="breakbreak">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ligula nibh. Aenean elementum mi dui, sit amet sollicitudin magna suscipit at. Quisque et ante arcu. Ut facilisis neque sit amet mi scelerisque auctor. Fusce ut ultricies purus. Fusce molestie cursus libero, id imperdiet felis molestie in. Maecenas in leo suscipit, ornare sem sed, egestas arcu. Cras posuere nibh odio, lobortis malesuada libero sollicitudin posuere.</p>
+                        </div>
+
+                    <h3>Writing Mode:</h3>
+                        <p>The CSS <i>writing-mode</i> property specifies whether lines of text are laid out horizontally or vertically.</p>
+                        <div class="card2">
+                            <p id="vertical">This text is vertical using vertical-rl</p>
+
+                            <p>This text is both horizontal and <span id="spanvert">vertical</span>.</p>
+                        </div>
+				</div>
+                <!--Text Effects-->
+
+                <!--2D Transform-->
+                <div class="card1">
+					<h2><a href="https://www.w3schools.com/css/css3_2dtransforms.asp">CSS 2D Transform</a>:</h2>
+                        <p>With CSS, you can move, rotate, scale, and skew elements. You can also create simple 2D animations with it.</p>
+
+                    <h3>Translate Method:</h3>
+                        <p>The <i>translate(x-axis, y-axis)</i> method moves an element from its current position.</p>
+                            <div id="translate">This box is moved 100 pixels to the right and 25 pixels below.</div> <br>
+
+                    <h3>Rotate Method:</h3>
+                        <p>The <i>rotate(degree)</i> method rotates an element clockwise or counter-clockwise according to a given degree.</p>
+                            <div id="rotate">This box rotated clockwise by 50 degrees.</div> <br>
+
+                    <h3>Scale Method:</h3>
+                        <p>The <i>scale(width, height)</i> method increases or decreases the size of an element. If you only want to change only one size, use <i>scaleX(width)</i> for witdh or <i>scaleY(height)</i> for height.</p>
+                            <div id="scale">This box is twice its original size.</div> <br>
+
+                    <h3>Skew Method:</h3>
+                        <p>The <i>skewX(degree)</i> and <i>skewY(degree)</i> methods skews an element along the X-axis and Y-axis by the given angle. The shorthand version for this is <i>skew(X-axis, Y-axis</i></p>
+                            <div id="skewX">This boxed is skewed by 30 degrees.</div>
+
+                            <div id="skew">This boxed is skewed by 30 degrees.</div>
+
+                            <div id="skewY">This boxed is skewed by 30 degrees.</div> <br>
+                    
+                    <h3>Matrix Method:</h3>
+                        <p>The <i>matrix()</i> method combines all the 2D transform methods into one.</p>
+                        <p><b>Basic Parameter:</b> matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())</p>
+                        <div id="matrix">Using matrix.</div>
+				</div>
+                <!--2D Transform-->
+
+                <!--3D Transform-->
+                <div class="card1">
+					<h2><a href="https://www.w3schools.com/css/css3_3dtransforms.asp">CSS 3D Transform</a>:</h2>
+                        <p>Alongside 2D transformation, CSS also has 3D transformations.</p>
+
+                    <h3>Rotate X:</h3>
+                        <div id="rotateX">This box rotates.</div>
+
+                    <h3>Rotate Y:</h3>
+                        <div id="rotateY">This box rotates.</div>
+
+                    <h3>Rotate Z:</h3>
+                        <div id="rotateZ">This box rotates.</div>
+				</div>
+                <!--3D Transform-->
+			</div>
+		</div>
+
+        <div class="footer">
+			<h2>If you want to see the source code, click <a href="CSS Lessons Code.html">here</a> or click CSS Code above</h2>
+		</div>
+	</body>
+</html>

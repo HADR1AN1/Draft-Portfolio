@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>My Personal Website</title>
+	</head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+	<link rel="stylesheet" type="text/css" href="css/tags.css">
+	<link rel="stylesheet" type="text/css" href="css/classes.css">
+	<link rel="stylesheet" type="text/css" href="css/classes_buttons.css">
+	<link rel="stylesheet" type="text/css" href="css/others.css">
+	<link rel="stylesheet" type="text/css" href="css/classes_gallery.css">
+	<link rel="stylesheet" type="text/css" href="css/classes_tooltip.css">
+	<link rel="stylesheet" type="text/css" href="css/classes_link.css">
+	<body>
+		<div class="header">
+			<h1 style="font-size: 50px;">CSS Code</h1>
+		</div>
+
+		<div class="topnav">
+			<a href="Home.html">Introduction</a>
+			<a href="Interests.html">My Interests</a>
+			<a href="Skills.html">My Skills</a>
+			<a href="Short Lessons (CSSHTML).html">CSS Lessons</a>
+            <a href="CSS Lessons Code.html">CSS Code</a>
+
+            <a href="Favorites.html" style="float:right">My Favorites</a>
+			<a href="Main Page.html" style="float:right">Return to Main Page</a>
+		</div>
+
+        <div class="row">
+			<div class="leftcolumn1">
+				<div class="card1">
+					<h3><a href="https://www.w3schools.com/css/css_colors_keywords.asp">CSS Color Keywords</a>:</h3>
+
+                    <h3>Transparent Keyword:</h3>
+                    <div class="card3">
+                        <xmp readonly="true">
+CSS:
+    div.ex1 { 
+        background-color: lightgreen;
+        border: 2px solid black;
+        padding: 5px;
+    }
+                              
+    div.ex2 { 
+        background-color: transparent;
+        border: 2px solid black;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+HTML:
+    <div class="card2" style="background-color: rgb(145, 145, 240);">
+        <div class="ex1"><p>While the base background is light blue, this div's background color is light green.</p></div>
+        
+        <div class="ex2"><p>This div has the <i>transparent</i> value on its style value, thus having the same background as the previous div.</p></div>
+    </div>
+                        </xmp>
+                    </div>
+                    
+                    <h3>Currentcolor Keyword:</h3>
+                    <div class="card3">
+                        <xmp>
+CSS:
+    div.ex3 {
+        color: blue;
+        border: 5px solid currentcolor;
+        padding: 5px;  
+    }
+
+HTML:
+    <div class="card2">
+        <div class="ex3"><p>This div element has a blue text color. The border is also blue due to the currentcolor keyword.</p></div>
+    </div>
+                        </xmp>
+                    </div>
+
+                    <h3>Inherit Keyword:</h3>
+                    <div class="card3">
+                        <xmp>
+CSS:
+    div.ex4 {
+        border: 2px solid red;
+    }
+  
+    span {
+        border: inherit;
+    }
+
+HTML:
+    <div class="card2">
+        <div class="ex4">In this, the <span>span element's</span> border will be inherited from the parent element</div>
+    </div>
+                        </xmp>
+                    </div>
+				</div>
+
+                <div class="card1">
+					<h3><a href="https://www.w3schools.com/css/css3_gradients.asp">CSS Gradients</a>:</h3>
+
+				</div>
+
+                <div class="card1">
+					<h3><a href="https://www.w3schools.com/css/css3_shadows.asp">CSS Shadows</a>:</h3>
+
+				</div>
+
+                <div class="card1">
+					<h3><a href="https://www.w3schools.com/css/css3_text_effects.asp">CSS Text Effects</a>:</h3>
+
+				</div>
+
+                <div class="card1">
+					<h3><a href="https://www.w3schools.com/css/css3_2dtransforms.asp">CSS 2D Transform</a>:</h3>
+
+				</div>
+
+                <div class="card1">
+					<h3><a href="https://www.w3schools.com/css/css3_3dtransforms.asp">CSS 3D Transform</a>:</h3>
+
+				</div>
+			</div>
+		</div>
+
+        <div class="footer">
+			<h2>If you want to see the output, click <a href="Short Lessons (CSSHTML).html">here</a> or click CSS Lessons above</h2>
+		</div>
+	</body>
+</html>

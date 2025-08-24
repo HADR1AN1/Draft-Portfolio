@@ -1,0 +1,36 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    width: 160px;
+    text-align: center;
+}
+
+div.gallery1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 149px;
+}
+
+div.gallerysubs {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    display: inline-block;
+}
+  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    max-width: 160px;
+    max-height: 160px;
+    object-fit: cover;
+    text-align: center;
+}
+  
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
